@@ -94,9 +94,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="app-wrapper">
+
+        </div>
         <header className="header">Memory Game</header>
         <div className="game">
-          <div className="score">Нажатий: {this.state.clicks}</div>
+          <div className="score">Кликов: {this.state.clicks}</div>
           <div className="cards">
             {
               this.state.cards.map(item => (
@@ -111,7 +114,7 @@ class App extends React.Component {
             <span className="close" onClick={this.closePopup.bind(this)}>
               &times;
             </span>
-            Игра завершена. Вы нажали {this.state.clicks} раз, чтобы разгадать все карточки!
+            Игра завершена 🥳 Вы кликнули {this.state.clicks} раз, чтобы собрать все пары!
           </div>
         </Popup>
 

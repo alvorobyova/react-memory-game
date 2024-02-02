@@ -3,17 +3,21 @@
     background: #282c34;
     color: white;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
     height: 50px;
-    font-size: 30px;
+    font-size: 45px;
     padding: 20px;
     font-weight: bold;
 }
 
 .score {
-    padding-bottom: 20px;
+    margin: 20px 0 40px;
 }
 
 .cards {
