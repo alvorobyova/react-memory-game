@@ -1,5 +1,5 @@
 ## Memory game 🔎
 
 
-run app → `npm start`
-run build -> `npm run build`
+run app → `npm start` <br>
+run build → `npm run build`
