@@ -23,7 +23,7 @@ export class Card extends React.Component {
         </div>
 
         <div className="card-inner card-back">
-          <img src={'/images/question.svg'} alt='Question Mark'/>
+          <img src={'images/question.svg'} alt='Question Mark'/>
         </div>
 
       </div>
